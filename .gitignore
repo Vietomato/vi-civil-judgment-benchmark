@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# API key và cấu hình bí mật
+.env
+.env.*
+!.env.example
+
+# File nén và file nén chưa hoàn chỉnh
+*.zip
+*.partial
+
+# Toàn văn bản án gốc
+/dataset_dan_su_dat_dai/candidates_raw.jsonl
+/dataset_dan_su_dat_dai/ban_an_markdown/
+
+# Dữ liệu xử lý dung lượng lớn
+**/documents_preprocessed.jsonl
+**/documents.jsonl
+**/document_sections_draft.jsonl
+**/paragraphs_draft.jsonl
+**/paragraphs_review.csv
+**/paragraphs_with_suggestions.csv
+
+# Các bảng có nhiều trích đoạn toàn văn
+**/risk_flags.csv
+**/request_mentions_review.csv
+**/first_instance_result_mentions_review.csv
+
+# Hồ sơ toàn văn và hồ sơ gán nhãn được tạo tự động
+**/review_dossiers/
+**/claim_annotations/
+**/review_batch_50/
