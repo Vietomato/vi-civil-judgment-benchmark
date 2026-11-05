@@ -37,3 +37,9 @@ venv/
 **/review_dossiers/
 **/claim_annotations/
 **/review_batch_50/
+# Ignore old working directory
+/dataset_dan_su_dat_dai/
+
+# Track organized datasets through Git LFS
+!/data/raw/*.jsonl
+!/data/processed/*.jsonl
